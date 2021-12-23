@@ -84,11 +84,6 @@
     color: blanchedalmond;
 }
 
-.foot-content{
-    display: flex;
-    justify-content: center;
-    gap: 90px;
-}
 #btn{
     color: rgb(113, 157, 116);
     border-radius: 12px;
@@ -98,7 +93,7 @@
 
 #btn:hover{
     font-size: 60px;
-    color: rgb(179, 60, 60)
+    color: rgb(179, 60, 60);
 }
 
 .formContainer{
@@ -106,9 +101,7 @@
     flex-direction: column;
     align-items: center;
 }
-.nameTitle{
-    color: rgb(113, 157, 116);
-}
+
 .nameInput{
     display: block;
     text-align: center;
@@ -124,7 +117,6 @@
 
 .messageTitle{
     margin-top: 40px;
-    color: rgb(113, 157, 116);
 }
 
 .messageInput{
@@ -138,7 +130,6 @@
 
 .emailTitle{
     margin-top: 40px;
-    color: rgb(113, 157, 116);
 }
 .emailInput{
     display: block;
@@ -148,14 +139,15 @@
     width: 300px;
 }
 
-.modal-footer{
+.communication-modal-footer{
+    margin-top: 10px;
+    height: 8vh;
     display: flex;
     flex-direction: column;
+    background-color: rgb(59, 59, 59);
+    align-items: center;
 }
 
-#communication-modal-content{
-    background-color: rgb(59, 59, 59);
-}
 
 #form-submit-button{
     color: rgb(113, 157, 116);
@@ -169,4 +161,13 @@
 }
 #form-submit-button:hover{
     font-size: 50px;
+    color: rgb(60, 167, 179)
 }
+
+.foot-content{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+
