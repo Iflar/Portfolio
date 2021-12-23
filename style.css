@@ -1,0 +1,93 @@
+.body{
+    background-image: url('./Assets/DarkBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+   
+}
+
+.title{
+    text-align: center;
+    color: rgb(140, 122, 122);
+}
+
+.profile{
+    margin-top: 15%;
+}
+.buttonContainer{
+ position: relative;
+ display: flex;
+ align-items: center;
+}
+.btn-main{
+    width: 8px !important;
+    border: transparent !important;
+}
+#modalBtn{
+    background-color: transparent;
+    border-color: transparent;
+    width: 10px;
+    height: 10px;
+    font-size: 80px;
+    color: rgb(113, 157, 116);
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    transition: 500ms;
+    border: transparent !important;
+}
+
+#modalBtn:hover{
+    color: transparent;
+    border: transparent !important;
+}
+
+#secondIcon:hover{
+    color: rgb(113, 157, 116) !important;
+    border: transparent !important;
+}
+
+#secondIcon{
+    position: relative;
+    bottom: 120px;
+    right: 5px;
+    z-index: 3;
+    color: transparent;
+    transition: 1000ms;
+    border: transparent !important;
+}
+
+#biography-container{
+    margin-top: 10%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 200px;
+    border: transparent !important;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+}
+
+.btn-floating{
+    color: blanchedalmond;
+}
+
+.foot-content{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+#btn{
+    color: rgb(113, 157, 116);
+    border-radius: 12px;
+    font-size: 30px;
+    transition: all 500ms ease-in-out;
+}
+
+#btn:hover{
+    font-size: 60px;
+}

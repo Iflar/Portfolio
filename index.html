@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <title>Portfolio</title>
+  </head>
+  <body class="body" id="a">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+   <div class="title">
+       <h1></h1>
+       <h5></h5>
+   </div>
+   
+    <div class="row">
+        <div class="col-md-12 col-md-offset-3 center">
+        <div class="row">
+          <div class="col-md-2 text-center">
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="profile">
+                <img src="./Assets/NewMouse.jpg" class="rounded-circle" alt="Cinque Terre" width="250" height="250">           
+                <div class="title">
+                    <h1>Forrest Rydén</h1>
+                    <h5>Software Developer</h5>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+              <h1></h1>
+          </div>
+          <div class="col-md-2 text-center">
+            
+        </div>
+        <div class="col-md-2 text-center" id="biography-container">
+          <div class="buttonContainer">
+            <button type="button" class="btn-main" data-bs-toggle="modal" data-bs-target="#AboutModal" id="modalBtn">
+              <i class="fas fa-address-card"></i>
+              <i id="secondIcon" class="far fa-address-card"></i>
+            </button>
+          </div>
+          <div class="buttonContainer">
+            <button type="button" class="btn-main" data-bs-toggle="modal" data-bs-target="#ProjectsModal" id="modalBtn">
+              <i class="fas fa-toolbox"></i>
+              <i id="secondIcon" class="fas fa-tools"></i>
+            </button>
+          </div>
+          <div class="buttonContainer">
+            <button type="button" class="btn-main" data-bs-toggle="modal" data-bs-target="#CommunicationModal" id="modalBtn">
+              <i class="fas fa-envelope"></i>
+              <i id="secondIcon" class="far fa-envelope-open"></i>
+            </button>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        <div class="mainFooter">
+            <footer class="bg-transparent text-center text-white fixed-bottom">
+              <div class="containerFooter">
+                <section class="mb-4">
+                  <div class="foot-content">
+                    <a class="btn btn-floating m-1" id="btn" id="b" href="https://www.linkedin.com/in/forrest-ryd%C3%A9n-866ab5228/" role="button"><i
+                      class="fab fa-linkedin-in"></i></a>
+                  <a class="btn btn-floating m-1" id="btn"href="https://github.com/Iflar" role="button"><i
+                      class="fab fa-github"></i></a>
+                  <a class="btn btn-floating m-1" id="btn" href="https://codepen.io/ForrestRyden/pen/XWgzoyK" role="button"><i
+                      class="fab fa-codepen"></i></a>
+                  </div>
+                </section>
+              </div>
+            </footer>
+          </div>
+
+          <!-- About Modal -->
+<div class="modal fade" id="AboutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">About Me</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Projects Modal -->
+<div class="modal fade" id="ProjectsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Projects Modal</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--  Communication Modal -->
+<div class="modal fade" id="CommunicationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form
+  action="https://formspree.io/f/meqnqyyv"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send Email</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+          crossorigin="anonymous"></script>
+  </body>
+</html>
