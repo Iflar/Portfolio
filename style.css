@@ -8,8 +8,29 @@
 }
 
 #about-modal-content{
-    background-image: url(./Assets/Mouse.jpg);
+    color: black;
+    height: 50vh;
+    background-image: url(./Assets/self-indication.png);
     background-size: contain;
+    background-repeat: no-repeat;
+    border-color: transparent;
+}
+
+.about-modal-body{
+    height: 40vh;
+}
+
+#projects-modal-content{
+    color: black;
+    background-color: transparent;
+    height: 50vh;
+    background-image: url(./Assets/Working.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.projects-modal-body{
+    height: 40vh;
 }
 
 .title{
@@ -147,6 +168,28 @@
     background-color: rgb(59, 59, 59);
     align-items: center;
 }
+
+.about-modal-footer{
+    margin-top: 10px;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(59, 59, 59);
+    border-color: transparent;
+    align-items: center;
+    overflow: auto;
+}
+
+.projects-modal-footer{
+    margin-top: 10px;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(59, 59, 59);
+    align-items: center;
+}
+
+
 
 
 #form-submit-button{
