@@ -7,6 +7,11 @@
    
 }
 
+#about-modal-content{
+    background-image: url(./Assets/Mouse.jpg);
+    background-size: contain;
+}
+
 .title{
     text-align: center;
     color: rgb(140, 122, 122);
@@ -15,15 +20,18 @@
 .profile{
     margin-top: 15%;
 }
+
 .buttonContainer{
  position: relative;
  display: flex;
  align-items: center;
 }
+
 .btn-main{
     width: 8px !important;
     border: transparent !important;
 }
+
 #modalBtn{
     background-color: transparent;
     border-color: transparent;
@@ -44,7 +52,7 @@
 }
 
 #secondIcon:hover{
-    color: rgb(113, 157, 116) !important;
+    color: rgb(179, 60, 60) !important;
     border: transparent !important;
 }
 
@@ -90,6 +98,7 @@
 
 #btn:hover{
     font-size: 60px;
+    color: rgb(179, 60, 60)
 }
 
 .formContainer{
@@ -97,9 +106,25 @@
     flex-direction: column;
     align-items: center;
 }
+.nameTitle{
+    color: rgb(113, 157, 116);
+}
+.nameInput{
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+}
+
+.nameInput::placeholder{
+    color: grey;
+}
+
 
 .messageTitle{
     margin-top: 40px;
+    color: rgb(113, 157, 116);
 }
 
 .messageInput{
@@ -111,10 +136,37 @@
     height: 200px;
 }
 
+.emailTitle{
+    margin-top: 40px;
+    color: rgb(113, 157, 116);
+}
 .emailInput{
     display: block;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
     width: 300px;
+}
+
+.modal-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+#communication-modal-content{
+    background-color: rgb(59, 59, 59);
+}
+
+#form-submit-button{
+    color: rgb(113, 157, 116);
+    background-color: transparent;
+    font-size: 30px;
+    height: 50px;
+    width: 75px;
+    border-radius: 50%;
+    border: transparent;
+    transition: 200ms ease-in-out;
+}
+#form-submit-button:hover{
+    font-size: 50px;
 }
